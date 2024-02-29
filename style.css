@@ -1,29 +1,61 @@
+*{
+    color: antiquewhite;
+}
+
 .containerG {
-    height: 200px;
-    width: 100%;
+    height: 1000px;
+    width: 60%;
     border: 1px solid gray;
     padding: 1em;
     display: grid;
   
-    grid-template-areas: "one one two "
-    "one one two "
-    "three three three";
+    grid-template-areas: "one one one one "
+    
+    "two three three three "
+    "two three three three "
+    "two three three three "
+    "two three three three "
+    "two three three three "
+    "two three three three "
+    "two three three three ";
     gap: 1em;
+   
+    background-color: rgba(250, 250, 243, 0.867);
+}
+body{
+    background-color: rgb(241, 242, 221);
 }
 .centerFlex {
     display: flex;
     align-items: center;
-    justify-content: center;
+  
+   
 }
 .cell {
-    border: 1px solid teal;
+    border: 1px solid rgba(5, 14, 14, 0.452);
+
 }
 .oneG {
     grid-area: one;
+    background: rgb(14,168,196);
+background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+}
+.imgmar{
+    margin-left: 60px;
+    border-radius: 50%;
 }
 .twoG {
     grid-area: two;
+    background: rgb(14,168,196);
+    background: linear-gradient(10deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
 }
 .threeG {
     grid-area: three;
+    background: rgb(14,168,196);
+    background: linear-gradient(10deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+}
+.text{
+    margin-bottom: 30px;
+    color: rgba(14, 9, 2, 0.626);
+    margin-left: 100px;
 }
