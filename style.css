@@ -5,8 +5,8 @@
     padding: 1em;
     display: grid;
   
-    grid-template-areas: "one one two"
-    "one one two"
+    grid-template-areas: "one one two "
+    "one one two "
     "three three three";
     gap: 1em;
 }
