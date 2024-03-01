@@ -1,5 +1,5 @@
 *{
-    color: antiquewhite;
+    color: rgb(97, 95, 94);
 }
 
 .containerG {
@@ -48,14 +48,15 @@ background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%
     grid-area: two;
     background: rgb(14,168,196);
     background: linear-gradient(10deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+    width: 100%;
 }
 .threeG {
     grid-area: three;
     background: rgb(14,168,196);
     background: linear-gradient(10deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+    width : 100%;
 }
 .text{
-    margin-bottom: 30px;
-    color: rgba(14, 9, 2, 0.626);
+    margin-top: 30px;
     margin-left: 100px;
-}
+} 
