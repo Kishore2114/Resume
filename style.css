@@ -1,6 +1,6 @@
 *{
-    box-sizing: border-box;
-    color: rgb(97, 95, 94);
+   
+    color: rgb(0, 0, 0);
 }
 
 .containerG {
@@ -8,17 +8,13 @@
     width: 60%;
     padding: 1em;
     display: grid;
+    gap: 0.5em;
   
     grid-template-areas: "one one one one "
+    "two three three three "
+    "two four four four";
+   
     
-    "two three three three "
-    "two three three three "
-    "two three three three "
-    "two three three three "
-    "two three three three "
-    "two three three three "
-    "two three three three ";
-    gap: 1em;
    
     background-color: rgba(250, 250, 243, 0.867);
 }
@@ -43,9 +39,10 @@ background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%
 
 }
 .oneG {
+    
     grid-area: one;
-    background: rgb(14,168,196);
 background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+height: 300px;
 }
 .imgmar{
     margin-left: 60px;
@@ -55,12 +52,33 @@ background: linear-gradient(90deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%
     grid-area: two;
     background: rgb(14,168,196);
     background: linear-gradient(10deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
-    width: 100%;
+    width: 200px;
+   
 }
 .threeG {
     grid-area: three;
     background: rgb(14,168,196);
     background: linear-gradient(10deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
-    width : 100%;
+    
 }
-
+.fourG{
+    grid-area: four;
+    background: rgb(14,168,196);
+    background: linear-gradient(10deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);
+    height: 100px;
+}
+.info{
+    margin-right: 10px;
+}
+.text{
+    margin-right: 5px;
+    text-align: justify;
+    
+}
+.h{
+    margin-bottom: 650px;
+    font-size: large;
+}
+.educ{
+    margin-right:400px;
+}
