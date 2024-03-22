@@ -1,0 +1,30 @@
+.container{
+    height: 700px;
+    width: 700px;
+    padding: 1em;
+    display: grid;
+    gap: 0em;
+    grid-template-areas: "one one one "
+    "two three three "
+    "two three three";
+}
+.cell {
+    border: 1px solid rgb(42, 42, 43);
+
+}
+.one{
+    grid-area: one;
+    background: rgb(247, 246, 246);
+    width: 500px;
+	height: 250px;
+	transform: skew(20deg);
+	background: #555;
+}
+.two{
+    grid-area: two;
+    background: rgb(247, 246, 246);
+}
+.three{
+    grid-area:  three;
+    background: rgb(247, 246, 246);
+}
