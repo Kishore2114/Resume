@@ -30,6 +30,9 @@ body{
     border: 1px solid rgb(42, 42, 43);
 
 }
+.span{
+    font-size: 30px;
+}
 .oneG {
     
     grid-area: one;
@@ -45,7 +48,7 @@ height: 100%;
     grid-area: two;
     background: rgb(14, 0, 72);
     /*background: linear-gradient(10deg, rgb(148, 239, 255) 0%, rgb(226, 189, 249) 59%);*/
-    width: 230px;
+    width: 250px;
    
 }
 .threeG {
@@ -82,35 +85,15 @@ height: 100%;
     font-size: 15px;
     padding-top: 10px;
 }
-#chevron {
-    position: relative;
-    text-align: center;
-    padding: 12px;
-    margin-bottom: 6px;
-    height: 60px;
-    width: 200px;
-  }
-  #chevron:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 51%;
-    background: red;
-    transform: skew(0deg, 6deg);
-  }
-  #chevron:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 50%;
-    background: red;
-    transform: skew(0deg, -6deg);
-  }
-
+.align{
+    margin-right: 30%;
+}
+.content{
+    justify-content: center;
+}
+.project{
+    margin-right: 50%;
+}
 @media only screen and( max-width:768px)
 {
     .containerG {
