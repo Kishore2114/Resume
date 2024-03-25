@@ -89,7 +89,7 @@ height: 100%;
     margin-right: 30%;
 }
 .content{
-    justify-content: center;
+    align-items: center;
 }
 .project{
     margin-right: 50%;
