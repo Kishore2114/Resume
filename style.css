@@ -91,9 +91,16 @@ height: 100%;
 .content{
     align-items: center;
 }
-.project{
+#chess{
     margin-right: 50%;
 }
+#shadow{
+    margin-right: auto;
+}
+#password{
+    margin-right: auto;
+}
+
 @media only screen and( max-width:768px)
 {
     .containerG {
