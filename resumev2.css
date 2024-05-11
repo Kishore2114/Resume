@@ -12,12 +12,12 @@ body{
     font-family: 'Montserrat'sans-serif;
 }
 .main{
-    background-color: white;
+    background-color: rgb(252, 251, 252);
     height: auto;
-    width: 650px;
+    width: 1000px;
     position: translate(-50%,-50%);
-    left:50%;
-    top:50%
+    left:100%;
+    top:100%
 }
 .left{
     background-color: #fbb03b;
@@ -26,13 +26,14 @@ body{
     float: left;
 }
 .right{
-    width:450px;
+    
+    width:500px;
     float: left;
 }
 .profile-img{
     height:180px;
     width: 180px;
-    background-color: #ddd;
+    background-color: #d5c1c1;
     border-radius: 50%;
     margin-left:60px;
     border: 10px solid #fbb03b;
@@ -73,4 +74,46 @@ body{
     font-size: 16px!important;
     padding-right: 10px!important;
     vertical-align:sub;
+}
+.skill-container{
+    width: 90%;
+    background-color: #4d4d4d;
+    margin: 0pc 10px;
+}
+.skill{
+    text-align: rigth;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+.html{
+    width: 90%;
+    background-color: white;
+}
+.css{
+    width: 80%;
+    background-color: white;
+}
+.js{
+    width: 90%;
+    background-color: white;
+}
+.mysql{
+    width: 90%;
+    background-color: white;
+}
+.python{
+    width: 90%;
+    background-color: white;
+}
+.web{
+    width: 60%;
+    background-color: white;
+}
+.debug{
+    width: 50%;
+    background-color: white;
+}
+.icons2{
+    padding: 18px 10px;
 }
